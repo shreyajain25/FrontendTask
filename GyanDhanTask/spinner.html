@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact</title>
+        <!-- Bootstrap -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,551;0,624;1,400&display=swap" 
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body class="container-fluid" onload="loadSpinner()">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="home.js"></script>
+        <div>
+            <div class="row pad justify-content-end">
+                    <div class="col-lg-9"></div>
+                    <a href="about.html"><button type="button" class="col col-sm-auto btn btn-md">About</button></a>
+                    <a href="menu.html"><button type="button" class="col col-sm-auto btn btn-md">Menu</button></a>
+                    <a href="contact.html"><button type="button" class="col col-sm-auto btn btn-md">Contact</button></a>
+            </div> 
+            <hr>
+            <div class="row">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col spinner">
+                            <h1 id="msg">Your Message has been sent to the Caterer</h1>
+                            <div class = "d-flex justify-content-center" id="spin">
+                                <div class="spinner-border text-secondary" role="status">
+                                    <span class="sr-only">Loading...</span>
+                                </div>
+                                <div class="spinner-border text-success" role="status">
+                                    <span class="sr-only">Loading...</span>
+                                </div>
+                                <div class="spinner-border text-danger" role="status">
+                                    <span class="sr-only">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

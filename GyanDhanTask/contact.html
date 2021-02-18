@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact</title>
+        <!-- Bootstrap -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,551;0,624;1,400&display=swap" 
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body class="container-fluid">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="home.js"></script>
+        <div>
+           <div class="row pad justify-content-end">
+                <div class="col-lg-9"></div>
+                <a href="about.html"><button type="button" class="col col-sm-auto btn btn-md">About</button></a>
+                <a href="menu.html"><button type="button" class="col col-sm-auto btn btn-md">Menu</button></a>
+                <a href="#"><button type="button" class="col col-sm-auto btn btn-md">Contact</button></a>
+           </div> 
+           <hr>
+           <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                        <h2 class="menu">Contact</h2>  
+                        <p>We offer full-service catering for any event, large or small. We understand your needs 
+                             and we will cater the food to satisfy the biggest criteria of them all, both look and 
+                            taste. Do not hesitate to contact us.
+                        </p>
+                        <h4>Catering Service, 42nd Living St, 43043 New York, NY</h4>
+                        <br>
+                        <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+                        <br>
+                        <form action="spinner.html">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" placeholder="Name" onchange="setName()">
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="noOfPeople" placeholder="How many people" 
+                                onchange="setNumber()">
+                            </div>
+                            <div class="form-group">
+                                <input type="datetime-local" class="form-control" id="date" placeholder="" onchange="setDate()">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="message" placeholder="Message \Special requirements"
+                                onchange="setMessage()">
+                            </div>
+                            <button type="submit" class="btn btn-light">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
